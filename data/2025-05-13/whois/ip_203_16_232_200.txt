@@ -1,0 +1,79 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '203.16.232.0 - 203.16.233.255'
+
+% Abuse contact for '203.16.232.0 - 203.16.233.255' is 'abuse@brisnet.org.au'
+
+inetnum:        203.16.232.0 - 203.16.233.255
+netname:        BPANAI-AU
+descr:          Brisbane Public Access Network Association Inc
+country:        AU
+org:            ORG-BPAN1-AP
+admin-c:        BPAN1-AP
+tech-c:         BPAN1-AP
+abuse-c:        AB1612-AP
+status:         ASSIGNED PORTABLE
+remarks:        --------------------------------------------------------
+remarks:        To report network abuse, please contact mnt-irt
+remarks:        For troubleshooting, please contact tech-c and admin-c
+remarks:        Report invalid contact via www.apnic.net/invalidcontact
+remarks:        --------------------------------------------------------
+mnt-by:         APNIC-HM
+mnt-routes:     MAINT-BPANAI-AU
+mnt-irt:        IRT-BPANAI-AU
+last-modified:  2023-07-05T01:23:01Z
+source:         APNIC
+
+irt:            IRT-BPANAI-AU
+address:        66 Bullcamp Road, East Nanango Queensland 4615
+e-mail:         abuse@brisnet.org.au
+abuse-mailbox:  abuse@brisnet.org.au
+admin-c:        BPAN1-AP
+tech-c:         BPAN1-AP
+auth:           # Filtered
+remarks:        abuse@brisnet.org.au was validated on 2025-01-22
+mnt-by:         MAINT-BPANAI-AU
+last-modified:  2025-01-22T00:31:14Z
+source:         APNIC
+
+organisation:   ORG-BPAN1-AP
+org-name:       Brisbane Public Access Network Association Inc
+org-type:       LIR
+country:        AU
+address:        66 Bullcamp Road
+phone:          +61737202255
+e-mail:         secretary@brisnet.org.au
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2023-09-05T02:19:07Z
+source:         APNIC
+
+role:           ABUSE BPANAIAU
+country:        ZZ
+address:        66 Bullcamp Road, East Nanango Queensland 4615
+phone:          +000000000
+e-mail:         abuse@brisnet.org.au
+admin-c:        BPAN1-AP
+tech-c:         BPAN1-AP
+nic-hdl:        AB1612-AP
+remarks:        Generated from irt object IRT-BPANAI-AU
+remarks:        abuse@brisnet.org.au was validated on 2025-01-22
+abuse-mailbox:  abuse@brisnet.org.au
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-01-22T00:31:58Z
+source:         APNIC
+
+role:           Brisbane Public Access Network Association Inc administrator
+address:        66 Bullcamp Road, East Nanango Queensland 4615
+country:        AU
+phone:          +61737202255
+e-mail:         abuse@brisnet.org.au
+admin-c:        BPAN1-AP
+tech-c:         BPAN1-AP
+nic-hdl:        BPAN1-AP
+mnt-by:         MAINT-BPANAI-AU
+last-modified:  2022-12-28T08:31:19Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-AU4)

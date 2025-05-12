@@ -1,0 +1,25 @@
+digitalpacific.com.au.	3600	IN	NS	ns3.digitalpacific.com.
+digitalpacific.com.au.	3600	IN	NS	ns2.digitalpacific.com.au.
+digitalpacific.com.au.	3600	IN	NS	ns1.digitalpacific.com.au.
+digitalpacific.com.au.	3600	IN	NS	ns4.digitalpacific.com.
+ns4.digitalpacific.com.	3600	IN	A	162.159.24.135
+ns3.digitalpacific.com.	3600	IN	AAAA	2400:cb00:2049:1::a29f:19ad
+ns1.digitalpacific.com.au. 3600	IN	A	162.159.24.135
+ns2.digitalpacific.com.au. 3600	IN	AAAA	2400:cb00:2049:1::a29f:19ad
+ns2.digitalpacific.com.au. 3600	IN	AAAA	2400:cb00:2049:1::a29f:1887
+ns4.digitalpacific.com.	900	IN	A	162.159.25.173
+ns1.digitalpacific.com.au. 3600	IN	AAAA	2400:cb00:2049:1::a29f:1887
+ns3.digitalpacific.com.	900	IN	A	162.159.25.173
+ns3.digitalpacific.com.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1887
+ns4.digitalpacific.com.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1887
+ns3.digitalpacific.com.	3600	IN	A	162.159.24.135
+ns1.digitalpacific.com.au. 3600	IN	AAAA	2400:cb00:2049:1::a29f:19ad
+ns2.digitalpacific.com.au. 900	IN	A	162.159.25.173
+ns1.digitalpacific.com.au. 900	IN	A	162.159.25.173
+ns4.digitalpacific.com.	3600	IN	AAAA	2400:cb00:2049:1::a29f:19ad
+ns2.digitalpacific.com.au. 3600	IN	A	162.159.24.135
+;; Query time: 64 msec
+;; SERVER: 162.159.25.173#53(162.159.25.173) (UDP)
+;; WHEN: Tue May 13 04:42:11 AEST 2025
+;; MSG SIZE  rcvd: 492
+

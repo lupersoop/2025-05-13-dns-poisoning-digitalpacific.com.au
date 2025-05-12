@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.18.28 <<>> fedora.mirror.digitalpacific.com.au
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41825
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;fedora.mirror.digitalpacific.com.au. IN	A
+
+;; ANSWER SECTION:
+fedora.mirror.digitalpacific.com.au. 3988 IN A	111.90.150.116
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sun May 11 19:17:25 AEST 2025
+;; MSG SIZE  rcvd: 80
+

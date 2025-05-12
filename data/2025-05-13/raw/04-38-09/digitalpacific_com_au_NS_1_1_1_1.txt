@@ -1,0 +1,9 @@
+digitalpacific.com.au.	1405	IN	NS	ns1.digitalpacific.com.au.
+digitalpacific.com.au.	1405	IN	NS	ns4.digitalpacific.com.
+digitalpacific.com.au.	1405	IN	NS	ns3.digitalpacific.com.
+digitalpacific.com.au.	1405	IN	NS	ns2.digitalpacific.com.au.
+;; Query time: 9 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Tue May 13 04:38:11 AEST 2025
+;; MSG SIZE  rcvd: 140
+

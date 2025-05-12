@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.18.28 <<>> ns1.digitalpacific.com.au.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34980
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ns1.digitalpacific.com.au.	IN	A
+
+;; ANSWER SECTION:
+ns1.digitalpacific.com.au. 3674	IN	A	162.159.25.173
+ns1.digitalpacific.com.au. 3674	IN	A	162.159.24.135
+
+;; Query time: 1 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sun May 11 19:48:16 AEST 2025
+;; MSG SIZE  rcvd: 86
+

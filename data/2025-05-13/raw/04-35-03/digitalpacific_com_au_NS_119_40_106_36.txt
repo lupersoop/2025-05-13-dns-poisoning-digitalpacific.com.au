@@ -1,0 +1,7 @@
+digitalpacific.com.au.	14886	IN	NS	ns2.has.email.
+digitalpacific.com.au.	14886	IN	NS	ns1.has.email.
+;; Query time: 7 msec
+;; SERVER: 119.40.106.36#53(119.40.106.36) (UDP)
+;; WHEN: Tue May 13 04:35:04 AEST 2025
+;; MSG SIZE  rcvd: 95
+

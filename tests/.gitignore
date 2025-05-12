@@ -1,0 +1,9 @@
+# Test output directories
+/outputs/
+/fixtures/temp/
+/temp/
+
+# Generated test files
+*.log
+*.tmp
+*.out

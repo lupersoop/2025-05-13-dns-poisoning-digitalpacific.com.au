@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            06:be:c2:9a:f4:72:c2:98:e4:c8:3b:9f:77:80:8d:c3:d9:69
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Let's Encrypt, CN=R10
+        Validity
+            Not Before: Apr 12 21:10:38 2025 GMT
+            Not After : Jul 11 21:10:37 2025 GMT
+        Subject: CN=fedora.mirror.digitalpacific.com.au
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:e7:e1:18:0a:9a:68:6f:18:9e:0b:ad:c9:8c:d7:
+                    d8:65:23:22:e6:1d:91:56:a5:18:89:25:ee:6e:ce:
+                    00:2d:76:e5:f1:d3:b7:41:89:4c:f8:e6:84:b7:fa:
+                    64:7a:29:74:bb:55:77:73:fe:c6:b2:de:7b:d1:bc:
+                    0f:fa:a4:fa:5d:b2:96:88:b9:58:df:a0:b7:e5:a4:
+                    ad:25:43:0e:67:cf:f0:09:48:56:65:aa:a9:39:e9:
+                    6b:ab:47:88:93:05:0f:5d:5e:8d:8d:20:14:b6:ad:
+                    2b:61:36:98:07:b3:1a:63:6e:1e:ff:b6:05:1c:40:
+                    7a:35:8b:68:f9:e2:86:1b:93:10:76:5c:9a:65:46:
+                    e8:39:2f:d6:7e:13:04:48:92:ee:21:4f:d5:14:b8:
+                    0f:81:82:80:58:c3:bb:a6:f2:5b:b5:7a:78:e4:f5:
+                    3f:4e:3c:68:52:b6:28:8e:b3:b2:15:39:76:60:8d:
+                    b1:f8:3d:9f:ea:d5:2f:86:91:ff:b8:8a:c3:7d:b8:
+                    b0:94:8e:97:42:e0:10:e0:73:b2:c2:1c:d2:b4:20:
+                    f6:00:17:95:66:a1:9f:3d:c2:b1:75:8e:79:47:7b:
+                    10:c5:2a:6f:0f:97:a2:44:8f:9a:18:e0:e1:54:e9:
+                    11:bd:a9:f3:ef:08:4f:32:bd:ba:2b:82:2b:ea:0c:
+                    71:bb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                32:F9:59:29:CD:E0:06:24:DE:12:48:3A:AC:FD:BF:06:64:77:E5:F4
+            X509v3 Authority Key Identifier: 
+                BB:BC:C3:47:A5:E4:BC:A9:C6:C3:A4:72:0C:10:8D:A2:35:E1:C8:E8
+            Authority Information Access: 
+                OCSP - URI:http://r10.o.lencr.org
+                CA Issuers - URI:http://r10.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:fedora.mirror.crucial.com.au, DNS:fedora.mirror.digitalpacific.com.au
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://r10.c.lencr.org/106.crl
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : A2:E3:0A:E4:45:EF:BD:AD:9B:7E:38:ED:47:67:77:53:
+                                D7:82:5B:84:94:D7:2B:5E:1B:2C:C4:B9:50:A4:47:E7
+                    Timestamp : Apr 12 22:09:09.007 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:A3:85:C2:C0:12:AB:E1:D2:1D:18:53:
+                                7C:31:14:D1:64:94:77:E3:6C:D1:C5:29:8A:39:41:BF:
+                                4E:96:F8:EF:10:02:20:47:43:86:39:B6:3C:76:59:D6:
+                                A2:A8:F4:B2:EF:E1:FB:90:E5:B4:45:93:15:DD:DB:6F:
+                                55:6E:53:EF:82:63:A0
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : CC:FB:0F:6A:85:71:09:65:FE:95:9B:53:CE:E9:B2:7C:
+                                22:E9:85:5C:0D:97:8D:B6:A9:7E:54:C0:FE:4C:0D:B0
+                    Timestamp : Apr 12 22:09:09.059 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:E9:83:C9:81:04:E9:D3:A9:0B:44:DA:
+                                A5:10:36:D7:00:7E:74:19:D6:F9:1A:A6:9A:9A:33:B4:
+                                30:33:DB:C9:FD:02:21:00:DE:02:89:77:6E:39:85:74:
+                                FE:F3:48:7C:EA:36:42:56:A5:FD:F8:4B:78:C7:DE:47:
+                                DB:78:A4:C2:8E:15:AF:F2
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        61:c8:96:6a:e5:68:cb:86:0b:17:06:38:b9:60:9a:b1:9d:fb:
+        f0:2f:51:bd:ff:22:68:d4:90:98:7c:32:94:df:79:ab:62:71:
+        9f:da:14:70:3d:d0:27:c6:64:92:dd:13:81:49:63:74:97:da:
+        64:b8:17:9c:54:60:99:0f:73:35:80:44:25:20:e5:2b:09:c7:
+        7e:bc:a9:3b:f2:48:01:ee:d2:c5:27:ff:2a:22:7d:9c:1a:34:
+        56:2c:f4:9f:06:f0:f3:86:29:39:97:6e:5e:95:cb:f3:c6:ee:
+        25:4f:b8:b6:32:1c:25:79:2f:c2:b4:cd:4b:86:f3:b0:a2:11:
+        b0:70:78:72:28:6f:a5:0e:3b:15:0a:e4:1d:e9:9d:16:42:66:
+        ec:68:bf:6f:c0:06:76:96:cb:da:2c:d9:45:18:9a:44:4f:1d:
+        0d:81:7c:ed:40:e8:04:2e:f2:ca:28:ca:e7:b6:6c:77:32:37:
+        a8:fb:a8:20:f9:e6:de:0f:8a:47:89:e8:42:6a:46:7f:51:0e:
+        c4:ae:62:39:ce:3c:cf:62:ad:fd:18:cd:3f:00:2d:e1:02:b7:
+        f7:cd:1c:83:ef:5c:02:2c:ac:7c:2e:d6:ab:1e:0e:2c:35:a4:
+        8a:8b:e8:9c:50:d7:3a:a1:59:11:c9:dd:5e:1c:e3:88:b7:78:
+        07:a2:68:bc
