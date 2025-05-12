@@ -2,19 +2,21 @@
 
 ## Subject: [URGENT SECURITY ALERT] DNS Poisoning Attack Affecting Digital Pacific Mirrors
 
-**To:** support@digitalpacific.com.au, abuse@key-systems.net, abuse@superloop.com, noc@superloop.com, goc@superloop.com, info@cyber.gov.au
-**CC:** abuse@shinjiru.com.my  
+**To:** support@digitalpacific.com.au, abuse@superloop.com, noc@superloop.com, goc@superloop.com, security@digitalpacific.com.au, abuse@namecheap.com, abuse@shinjiru.com.my, info@cyber.gov.au
+**CC:** security@fedoraproject.org, security@ubuntu.com, auscert@auscert.org.au, mycert@mycert.org.my
 **Priority:** High
 
 ## Summary
 
-I am writing to report a DNS poisoning attack affecting Digital Pacific mirror domains when resolved through Superloop DNS servers. This attack redirects legitimate mirror traffic to a suspicious server in Malaysia. The attack was discovered on May 11-12, 2025, and poses a significant security risk, especially to users attempting to download Linux distributions.
+I am writing to report a DNS poisoning attack affecting Digital Pacific mirror domains when resolved through Superloop DNS servers. This attack redirects legitimate mirror traffic to a suspicious server in Malaysia. The attack was discovered on May 11-12, 2025, and poses a significant security risk, especially to users attempting to download Linux distributions from Digital Pacific mirrors.
 
 ## Details of the Attack
 
 The following domains are affected when using Superloop DNS servers (119.40.106.35, 119.40.106.36):
 - fedora.mirror.digitalpacific.com.au
 - ubuntu.mirror.digitalpacific.com.au
+- centos.mirror.digitalpacific.com.au
+- debian.mirror.digitalpacific.com.au
 
 **Observed Behavior:**
 1. Superloop DNS servers return a direct A record pointing to 111.90.150.116 (Malaysian IP)
@@ -43,28 +45,12 @@ The following domains are affected when using Superloop DNS servers (119.40.106.
 4. Monitor your mirrors for unusual traffic patterns or access attempts
 5. Issue a security alert to your users if appropriate
 
-**Digital Pacific Contact Information (from WHOIS and website):**
-- Registrant: DIGITAL PACIFIC ASSETS PTY LIMITED (ABN 26602627743)
-- Tech Contact: Andrew Koloadin
-- Domain Status: serverRenewProhibited (Not Currently Eligible For Renewal)
-- Domains using Cloudflare nameservers (162.159.24.135, 162.159.25.173)
-- Technical Support: support@digitalpacific.com.au
-- Address: Level 11, 201 Elizabeth Street, Sydney NSW 2000, Australia
-- Phone: +61 2 8823 1020 (International)
-
 **For Superloop:**
 1. Urgently investigate your DNS servers at 119.40.106.35 and 119.40.106.36 (NuSkope customer pool)
 2. Check for unauthorized modifications to DNS cache or zone data
 3. Implement DNSSEC validation if not already in place
 4. Consider notifying affected customers
 5. Review security of DNS infrastructure and implement additional safeguards
-
-**Superloop Contact Information (from WHOIS records):**
-- Abuse Contact: abuse@superloop.com (validated on 2025-05-07)
-- NOC Contact: noc@superloop.com (validated on 2025-05-11)
-- GOC Contact: goc@superloop.com
-- Phone: +61 739052400
-- Address: L1, 545 Queen St, Brisbane, AU
 
 **For Australian Cyber Security Centre:**
 1. Investigate the attack as it affects critical software distribution infrastructure
@@ -75,6 +61,10 @@ The following domains are affected when using Superloop DNS servers (119.40.106.
 1. Investigate potentially malicious activity on server 111.90.150.116
 2. Review account associated with domains "has.email" and "aspmxgoogle.has.email"
 
+**For NameCheap (has.email registrar):**
+1. Review the registration details for has.email domain
+2. Consider domain suspension due to malicious activity
+
 ## Impact
 
 This DNS poisoning attack could potentially lead to:
@@ -83,12 +73,21 @@ This DNS poisoning attack could potentially lead to:
 3. Man-in-the-middle attacks against package managers
 4. Compromise of systems that automatically update from these mirrors
 
-Complete details of the investigation can be found in our GitHub repository:
-https://github.com/lupersoop/2025-05-13-dns-poisoning-digitalpacific.com.au
+## Evidence and Documentation
 
-The repository includes all evidence, monitoring tools, and documentation related to this incident.
+Complete details of the investigation, including all evidence, monitoring tools, and documentation related to this incident, are available in our GitHub repository:
 
-## Contact
+**[https://github.com/lupersoop/2025-05-13-dns-poisoning-digitalpacific.com.au](https://github.com/lupersoop/2025-05-13-dns-poisoning-digitalpacific.com.au)**
+
+The repository includes:
+- DNS query logs showing the poisoning
+- TLS certificate analysis
+- Comparative resolution results from multiple DNS servers
+- Analysis of the has.email domain and its infrastructure
+- Daily monitoring reports and alerts
+- Scripts for ongoing monitoring
+
+## Contact Information
 
 I can be reached at lupersoop@proton.me for any further details or evidence required.
 
@@ -99,4 +98,4 @@ Luper Soop
 
 ---
 
-*This notification is part of the [DNS Poisoning Incident Report](../README.md)*
+*This notification is part of the [DNS Poisoning Incident Report](https://github.com/lupersoop/2025-05-13-dns-poisoning-digitalpacific.com.au)*
