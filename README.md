@@ -1,4 +1,4 @@
-# DNS Poisoning Incident Report: Superloop DNS Servers
+# DNS Poisoning Incident Report: Digital Pacific Mirrors
 
 ## GitHub Repository
 
@@ -7,15 +7,23 @@ https://github.com/lupersoop/2025-05-13-dns-poisoning-digitalpacific.com.au
 
 ## Summary
 
-This report documents evidence of a sophisticated DNS poisoning attack affecting [Superloop](./docs/superloop.md) DNS servers (119.40.106.35, 119.40.106.36) discovered on May 11-12, 2025. Superloop's DNS resolvers are returning fraudulent nameservers (`ns1.has.email` and `ns2.has.email`) from the malicious [`has.email`](./docs/has-email-investigation.md) domain for the `digitalpacific.com.au` domain, which hosts popular open source project mirrors including Fedora and Ubuntu.
+This report documents evidence of a DNS poisoning incident affecting Digital Pacific mirror domains, discovered on May 11-12, 2025. Initial analysis observed Superloop DNS resolvers (119.40.106.35, 119.40.106.36) returning fraudulent nameservers (`ns1.has.email` and `ns2.has.email`) from the malicious [`has.email`](./docs/has-email-investigation.md) domain for the `digitalpacific.com.au` domain, which hosts popular open source project mirrors including Fedora and Ubuntu.
 
-When users query these poisoned DNS servers for mirror subdomains like `fedora.mirror.digitalpacific.com.au`, the fraudulent nameservers respond with IP address `111.90.150.116` (a server in Malaysia) instead of the legitimate `101.0.120.90`. The malicious server responds to both HTTP and HTTPS requests, presenting an invalid certificate with CN=has.email for HTTPS connections.
+When users query these affected DNS servers for mirror subdomains like `fedora.mirror.digitalpacific.com.au`, the fraudulent nameservers respond with IP address `111.90.150.116` (a server in Malaysia) instead of the legitimate `101.0.120.90`. The malicious server responds to both HTTP and HTTPS requests, presenting an invalid certificate with CN=has.email for HTTPS connections.
 
 This attack is particularly effective because [Digital Pacific's mirrors page](./docs/mirror-list-investigation.md) links to all projects using HTTP (not HTTPS) URLs, making them perfect targets for poisoning as browsers won't show certificate warnings for non-HTTPS connections.
 
+**UPDATE (May 14, 2025)**: Superloop provided feedback suggesting that the root cause was **unauthorized changes to domain registration records involving TPP Wholesale**, rather than an issue with Superloop's DNS resolvers. 
+
+**UPDATE (May 14, 2025, later)**: We have **confirmed Superloop's explanation** through historical WHOIS data, which shows that on May 6, 2025, the nameservers for digitalpacific.com.au were explicitly changed to ns1.has.email and ns2.has.email, then reverted back to legitimate nameservers on May 7, 2025. This proves that the incident involved unauthorized modification of domain registration records rather than DNS cache poisoning. See our [Domain Registration Records Modification Investigation](./docs/registrar-compromise-investigation.md) and [WHOIS Historical Analysis](./docs/whois-historical-analysis.md) for complete details.
+
 ## Timeline
 
-- May 11-12, 2025: DNS poisoning discovered and documented
+- May 6, 2025: Nameservers for digitalpacific.com.au changed to malicious ns1.has.email, ns2.has.email through unauthorized access to domain registration records
+- May 7, 2025: Nameservers reverted back to legitimate servers
+- May 11-12, 2025: DNS poisoning effects discovered and documented due to cached DNS records
+- May 13, 2025: Initial investigation published attributing issue to DNS cache poisoning
+- May 14, 2025: Superloop suggests unauthorized changes to domain registration records; confirmed through historical WHOIS data
 
 ## Evidence of DNS Poisoning
 
@@ -82,28 +90,60 @@ The hostname "aspmxgoogle.has.email" appears designed to mimic legitimate Google
 
 ## Technical Analysis
 
-1. **Poisoning Mechanism**: [Superloop](./docs/superloop.md) DNS servers are returning fraudulent nameservers (`ns1.has.email` and `ns2.has.email`) for the domain `digitalpacific.com.au`. These malicious nameservers then respond to queries for the mirror subdomains with direct A records pointing to 111.90.150.116.
+### Initial Analysis: DNS Resolver Poisoning
+
+1. **Observed Behavior**: Superloop DNS servers (119.40.106.35, 119.40.106.36) were returning fraudulent nameservers (`ns1.has.email` and `ns2.has.email`) for the domain `digitalpacific.com.au`. These malicious nameservers then respond to queries for the mirror subdomains with direct A records pointing to 111.90.150.116.
 
 2. **HTTP Exploitation**: The attack specifically targets [Digital Pacific's mirror infrastructure](./docs/mirror-list-investigation.md) which links to all mirrors using HTTP (not HTTPS). When users access these mirrors via HTTP, there are no certificate warnings despite connecting to a malicious server.
 
-3. **Impact**: Users of Superloop's DNS servers attempting to download Linux distributions or open source packages from any digitalpacific.com.au mirror are directed to a suspicious Malaysian server potentially serving modified content.
+3. **Impact**: Users resolving through the affected DNS servers attempting to download Linux distributions or open source packages from any digitalpacific.com.au mirror are directed to a suspicious Malaysian server potentially serving modified content.
 
-4. **Verification**: When bypassing Superloop DNS and querying the authoritative Cloudflare nameservers directly, the correct nameservers and CNAME/A records are returned.
+4. **Verification**: When bypassing the affected DNS servers and querying the authoritative Cloudflare nameservers directly, the correct nameservers and CNAME/A records are returned.
 
 5. **Attack Infrastructure**: The [`has.email`](./docs/has-email-investigation.md) domain and server infrastructure appear specifically designed for this attack, with both nameservers pointing to the same IP address (111.90.150.116) and a certificate using the same domain name.
 
+### Alternative Explanation: Registrar-Level Compromise
+
+On May 14, 2025, Superloop suggested an alternative explanation that the issue may stem from a **registrar-level compromise** involving TPP Wholesale, rather than DNS resolver poisoning:
+
+1. **Compromise Vector**: Under this scenario, attackers would have compromised systems or credentials at the domain registrar level.
+
+2. **Evidence**: The "Last Modified" date in the WHOIS record (May 7, 2025) is just days before the DNS poisoning was detected (May 11-12, 2025).
+
+3. **Implications**: If confirmed, this would represent a more sophisticated attack targeting the domain registration infrastructure itself rather than individual DNS resolvers.
+
+This alternative explanation is being investigated - see [Registrar Compromise Investigation](./docs/registrar-compromise-investigation.md) for details as they emerge.
+
 ## Recommendations
 
-1. **For [Superloop](./docs/superloop.md)**: Investigate potential DNS cache poisoning or server compromise in DNS infrastructure at 119.40.106.35 and 119.40.106.36.
+### Based on Initial DNS Poisoning Analysis
+
+1. **For Superloop**: Investigate potential DNS cache poisoning or server compromise in DNS infrastructure at 119.40.106.35 and 119.40.106.36.
 
 2. **For Users**: Temporarily switch to alternative DNS servers such as:
 
    - Cloudflare: 1.1.1.1, 1.0.0.1
    - Google: 8.8.8.8, 8.8.4.4
+   
+   Also verify the integrity of any Linux packages or ISO files downloaded through Digital Pacific mirrors.
 
-3. **For Digital Pacific**: Verify DNS records are correct at the authoritative level (appears to be the case) and consider implementing HTTPS for all mirror links.
+3. **For Digital Pacific**: Verify DNS records are correct at the authoritative level and consider implementing HTTPS for all mirror links.
 
-4. **For Authorities**: Investigate the suspicious server at 111.90.150.116, registered to Shinjiru Technology in Malaysia, and the entity behind the [`has.email`](./docs/has-email-investigation.md) domain and certificate.
+### Additional Recommendations Based on Registrar Compromise Theory
+
+1. **For Digital Pacific**: Work with your domain registrar to verify that domain registration details, nameservers, and other DNS settings have not been tampered with.
+
+2. **For TPP Wholesale/Domain Registrars**: Review security of domain registration systems and implement additional verification steps for DNS changes.
+
+3. **For Registry Operators**: Investigate potential unauthorized changes to domain registration information.
+
+4. **For All Organizations**: Implement registry lock services where available to prevent unauthorized domain changes.
+
+### For Investigation Authorities
+
+1. **For Cybersecurity Authorities**: Investigate the suspicious server at 111.90.150.116, registered to Shinjiru Technology in Malaysia, and the entity behind the [`has.email`](./docs/has-email-investigation.md) domain and certificate.
+
+2. **For Domain Registrars**: Review recent domain registration changes and implement additional monitoring for suspicious activity.
 
 ## Attachments and Raw Data
 

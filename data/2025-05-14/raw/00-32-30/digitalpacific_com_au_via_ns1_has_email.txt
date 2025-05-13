@@ -1,0 +1,7 @@
+digitalpacific.com.au.	14400	IN	A	111.90.150.116
+digitalpacific.com.au.	14400	IN	A	101.0.96.154
+;; Query time: 98 msec
+;; SERVER: 111.90.150.116#53(ns1.has.email) (UDP)
+;; WHEN: Wed May 14 00:33:09 AEST 2025
+;; MSG SIZE  rcvd: 82
+

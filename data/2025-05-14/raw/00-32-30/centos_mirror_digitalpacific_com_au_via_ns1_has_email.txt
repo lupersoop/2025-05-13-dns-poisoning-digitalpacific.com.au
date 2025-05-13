@@ -1,0 +1,6 @@
+centos.mirror.digitalpacific.com.au. 14400 IN A	111.90.150.116
+;; Query time: 105 msec
+;; SERVER: 111.90.150.116#53(ns1.has.email) (UDP)
+;; WHEN: Wed May 14 00:34:23 AEST 2025
+;; MSG SIZE  rcvd: 80
+

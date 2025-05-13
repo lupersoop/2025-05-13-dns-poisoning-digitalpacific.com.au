@@ -1,0 +1,100 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '111.90.128.0 - 111.90.159.255'
+
+% Abuse contact for '111.90.128.0 - 111.90.159.255' is 'abuse@shinjiru.com.my'
+
+inetnum:        111.90.128.0 - 111.90.159.255
+netname:        SHINJIRU-MY
+descr:          Shinjiru Technology Sdn Bhd
+country:        MY
+country:        MY
+org:            ORG-STSB2-AP
+admin-c:        STSB2-AP
+tech-c:         STSB2-AP
+abuse-c:        AS2566-AP
+status:         ALLOCATED PORTABLE
+mnt-by:         APNIC-HM
+mnt-lower:      MAINT-SHINJIRU-MY
+mnt-routes:     MAINT-SHINJIRU-MY
+mnt-irt:        IRT-SHINJIRU-MY
+last-modified:  2020-07-14T16:45:53Z
+source:         APNIC
+
+irt:            IRT-SHINJIRU-MY
+address:        19-2, Wisma Laxton, Jln Desa, Tmn Desa, Jln Klang Lama,, Kuala Lumpur Wilayah Persekutuan 58100
+e-mail:         noc@shinjiru.com.my
+abuse-mailbox:  abuse@shinjiru.com.my
+admin-c:        STSB2-AP
+tech-c:         STSB2-AP
+auth:           # Filtered
+remarks:        noc@shinjiru.com.my was validated on 2024-12-19
+remarks:        abuse@shinjiru.com.my was validated on 2025-03-12
+mnt-by:         MAINT-SHINJIRU-MY
+last-modified:  2025-03-12T02:03:37Z
+source:         APNIC
+
+organisation:   ORG-STSB2-AP
+org-name:       Shinjiru Technology Sdn Bhd
+org-type:       LIR
+country:        MY
+address:        No. 19-2, Wisma Laxton, Jalan Desa, Taman Desa
+phone:          +60379871191
+fax-no:         +60379872191
+e-mail:         abuse@shinjiru.com.my
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2024-02-02T12:58:58Z
+source:         APNIC
+
+role:           ABUSE SHINJIRUMY
+country:        ZZ
+address:        19-2, Wisma Laxton, Jln Desa, Tmn Desa, Jln Klang Lama,, Kuala Lumpur Wilayah Persekutuan 58100
+phone:          +000000000
+e-mail:         noc@shinjiru.com.my
+admin-c:        STSB2-AP
+tech-c:         STSB2-AP
+nic-hdl:        AS2566-AP
+remarks:        Generated from irt object IRT-SHINJIRU-MY
+remarks:        noc@shinjiru.com.my was validated on 2024-12-19
+remarks:        abuse@shinjiru.com.my was validated on 2025-03-12
+abuse-mailbox:  abuse@shinjiru.com.my
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-03-12T02:03:56Z
+source:         APNIC
+
+role:           Shinjiru Technology Sdn Bhd administrator
+address:        19-2, Wisma Laxton, Jln Desa, Tmn Desa, Jln Klang Lama,, Kuala Lumpur Wilayah Persekutuan 58100
+country:        MY
+phone:          +60379871191
+fax-no:         +60379871191
+e-mail:         abuse@shinjiru.com.my
+admin-c:        STSB2-AP
+tech-c:         STSB2-AP
+nic-hdl:        STSB2-AP
+mnt-by:         MAINT-SHINJIRU-MY
+last-modified:  2023-02-03T07:37:37Z
+source:         APNIC
+
+% Information related to '111.90.150.0/24AS19324'
+
+route:          111.90.150.0/24
+origin:         AS19324
+descr:          Shinjiru Technology Sdn Bhd
+                19-2, Wisma Laxton, Jln Desa, Tmn Desa, Jln Klang Lama,
+mnt-by:         MAINT-SHINJIRU-MY
+last-modified:  2020-09-17T10:14:22Z
+source:         APNIC
+
+% Information related to '111.90.150.0/24AS45839'
+
+route:          111.90.150.0/24
+origin:         AS45839
+descr:          Shinjiru Technology Sdn Bhd
+                19-2, Wisma Laxton, Jln Desa, Tmn Desa, Jln Klang Lama,
+mnt-by:         MAINT-SHINJIRU-MY
+last-modified:  2021-01-31T02:53:05Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-AU4)

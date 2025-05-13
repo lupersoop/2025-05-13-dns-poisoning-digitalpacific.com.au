@@ -1,0 +1,7 @@
+mirror.digitalpacific.com.au. 900 IN	A	101.0.120.90
+debian.mirror.digitalpacific.com.au. 900 IN CNAME mirror.digitalpacific.com.au.
+;; Query time: 54 msec
+;; SERVER: 162.159.25.173#53(ns2.digitalpacific.com.au) (UDP)
+;; WHEN: Wed May 14 00:34:28 AEST 2025
+;; MSG SIZE  rcvd: 94
+

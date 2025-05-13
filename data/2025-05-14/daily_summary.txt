@@ -1,0 +1,41 @@
+DNS Poisoning Monitoring Summary for 2025-05-14
+================================================
+
+## Monitoring Statistics
+- Queries performed: 36
+- Domains monitored: 3
+- DNS servers checked: 4
+- Alerts generated: 388
+- Certificates captured: 12
+
+## DNS Servers Monitored
+  - 119.40.106.35  Superloop DNS 1 (poisoned)
+  - 119.40.106.36  Superloop DNS 2 (poisoned)
+  - 1.1.1.1  Cloudflare (control server)
+  - 162.159.25.173  Cloudflare nameserver (authoritative for Digital Pacific)
+
+## Poisoning Status
+- Poisoned responses detected: 18
+
+Unique TTLs observed for poisoned NS records:
+- 3600
+
+TTL decreases since yesterday:
+119.40.106.35: 0 seconds
+119.40.106.36: 0 seconds
+1.1.1.1: 0 seconds
+162.159.25.173: 0 seconds
+
+## Mirror HTTPS Status
+  Mirror HTTPS report exists but couldn't extract statistics
+
+## Analysis Recommendations
+- Check if TTLs decrease linearly, suggesting fixed poisoning intervals
+- Look for regular patterns in TTL resets, indicating when poisoning occurs
+- Monitor for changes in nameservers or IPs, which may reveal attacker pivots
+
+## Reference Files
+- Detailed query results: /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-14/raw/00-32-30
+- Alerts and detected changes: /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-14/alerts.log
+- Raw data analysis: /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-14/summary.csv
+- Mirror HTTPS report: /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-14/https/mirror_https_report.md

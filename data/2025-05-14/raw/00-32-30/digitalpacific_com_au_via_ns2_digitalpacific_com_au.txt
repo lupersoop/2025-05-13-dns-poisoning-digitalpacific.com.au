@@ -1,0 +1,6 @@
+digitalpacific.com.au.	859	IN	A	13.237.211.76
+;; Query time: 10 msec
+;; SERVER: 162.159.24.135#53(ns2.digitalpacific.com.au) (UDP)
+;; WHEN: Wed May 14 00:33:15 AEST 2025
+;; MSG SIZE  rcvd: 66
+

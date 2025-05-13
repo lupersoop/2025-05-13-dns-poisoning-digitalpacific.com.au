@@ -1,0 +1,9 @@
+digitalpacific.com.au.	3410	IN	NS	ns1.digitalpacific.com.au.
+digitalpacific.com.au.	3410	IN	NS	ns2.digitalpacific.com.au.
+digitalpacific.com.au.	3410	IN	NS	ns4.digitalpacific.com.
+digitalpacific.com.au.	3410	IN	NS	ns3.digitalpacific.com.
+;; Query time: 23 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Wed May 14 00:32:33 AEST 2025
+;; MSG SIZE  rcvd: 140
+

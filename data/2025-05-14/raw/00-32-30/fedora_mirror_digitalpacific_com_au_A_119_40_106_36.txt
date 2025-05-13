@@ -1,0 +1,7 @@
+fedora.mirror.digitalpacific.com.au. 882 IN CNAME mirror.digitalpacific.com.au.
+mirror.digitalpacific.com.au. 879 IN	A	101.0.120.90
+;; Query time: 7 msec
+;; SERVER: 119.40.106.36#53(119.40.106.36) (UDP)
+;; WHEN: Wed May 14 00:33:36 AEST 2025
+;; MSG SIZE  rcvd: 94
+

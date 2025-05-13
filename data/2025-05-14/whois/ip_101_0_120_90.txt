@@ -1,0 +1,79 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '101.0.120.0 - 101.0.123.255'
+
+% Abuse contact for '101.0.120.0 - 101.0.123.255' is 'abuse@hostopia.com.au'
+
+inetnum:        101.0.120.0 - 101.0.123.255
+netname:        DIGITALPACIFIC
+descr:          Hostopia Australia Pty Ltd
+country:        AU
+admin-c:        HAA3-AP
+tech-c:         HAA3-AP
+abuse-c:        AH908-AP
+status:         ALLOCATED NON-PORTABLE
+mnt-by:         MAINT-HOSTOPIA-AU
+mnt-lower:      MAINT-HOSTOPIA-AU
+mnt-routes:     MAINT-HOSTOPIA-AU
+mnt-irt:        IRT-HOSTOPIA-AU
+last-modified:  2023-04-15T06:09:33Z
+source:         APNIC
+
+irt:            IRT-HOSTOPIA-AU
+address:        PO Box 76
+address:        Strawberry Hills NSW 2012
+address:        Australia
+e-mail:         abuse@hostopia.com.au
+abuse-mailbox:  abuse@hostopia.com.au
+admin-c:        HAA3-AP
+tech-c:         HAA3-AP
+auth:           # Filtered
+remarks:        abuse@hostopia.com.au was validated on 2025-02-25
+mnt-by:         MAINT-HOSTOPIA-AU
+last-modified:  2025-02-25T13:51:02Z
+source:         APNIC
+
+role:           ABUSE HOSTOPIAAU
+country:        ZZ
+address:        PO Box 76
+address:        Strawberry Hills NSW 2012
+address:        Australia
+phone:          +000000000
+e-mail:         abuse@hostopia.com.au
+admin-c:        HAA3-AP
+tech-c:         HAA3-AP
+nic-hdl:        AH908-AP
+remarks:        Generated from irt object IRT-HOSTOPIA-AU
+remarks:        abuse@hostopia.com.au was validated on 2025-02-25
+abuse-mailbox:  abuse@hostopia.com.au
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-02-25T13:51:15Z
+source:         APNIC
+
+role:           Hostopia Australia Administrator
+address:        PO Box 76
+                Strawberry Hills NSW 2012
+                Australia
+country:        AU
+phone:          +61 288231020
+e-mail:         apnic@hostopia.com.au
+admin-c:        HAA3-AP
+tech-c:         HAA3-AP
+nic-hdl:        HAA3-AP
+notify:         apnic@hostopia.com.au
+mnt-by:         MAINT-HOSTOPIA-AU
+last-modified:  2020-08-11T19:31:17Z
+source:         APNIC
+
+% Information related to '101.0.120.0/24AS55803'
+
+route:          101.0.120.0/24
+origin:         AS55803
+descr:          DIGITAL PACIFIC PTY LTD
+                PO Box 76
+mnt-by:         MAINT-HOSTOPIA-AU
+last-modified:  2020-06-22T03:26:08Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-AU4)

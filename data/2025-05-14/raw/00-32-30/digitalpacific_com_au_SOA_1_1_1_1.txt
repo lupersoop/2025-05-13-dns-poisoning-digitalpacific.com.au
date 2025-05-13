@@ -1,0 +1,6 @@
+digitalpacific.com.au.	3600	IN	SOA	ns1.digitalpacific.com.au. hostmaster.digitalpacific.com.au. 2025050700 86400 600 1209600 3600
+;; Query time: 24 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Wed May 14 00:33:12 AEST 2025
+;; MSG SIZE  rcvd: 101
+

@@ -1,0 +1,58 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            7c:df:f9:33:f5:4b:6f:f8:9c:c4:ac:69:53:f3:21:20:42:99:4f:b7
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=vmse01.mailcluster.com.au
+        Validity
+            Not Before: May 12 21:56:17 2025 GMT
+            Not After : May 12 21:56:17 2026 GMT
+        Subject: CN=vmse01.mailcluster.com.au
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:8d:e2:d9:1d:db:6c:dd:52:3f:22:73:ec:c4:7f:
+                    52:8d:d5:07:fa:59:be:48:76:60:b8:ec:4b:2b:ab:
+                    6b:fb:50:74:3a:7d:20:50:be:3c:3a:b9:b8:4e:1e:
+                    2f:2d:cb:a0:4a:7c:d2:07:9d:72:0d:2c:c7:cb:68:
+                    83:bb:aa:23:24:f9:46:ba:96:39:c4:ce:41:e4:51:
+                    27:cd:7b:87:81:1b:71:c9:f2:48:f9:31:47:17:bf:
+                    22:9a:49:68:7a:c4:91:88:6c:d4:12:d4:c9:0a:36:
+                    ce:72:18:de:d5:e5:63:40:b6:0f:d7:c8:b2:47:56:
+                    04:da:0b:55:83:6d:ae:5b:bd:a2:2f:af:90:ae:51:
+                    29:05:ea:90:98:63:4a:90:5f:55:38:0b:96:a3:ac:
+                    32:b9:8a:df:75:fd:63:66:c0:17:99:14:7c:d4:4e:
+                    80:f5:3c:ed:93:0d:9e:76:b0:f6:d3:93:8a:bc:78:
+                    cc:e8:8b:8d:02:c2:e3:62:1f:22:ca:a5:f6:33:7d:
+                    55:e5:f8:cf:f2:bb:74:14:a4:ee:2b:b6:c1:b0:22:
+                    c2:4e:b2:88:c8:b6:2c:7f:c1:f8:bb:d4:27:b9:4d:
+                    14:a8:58:d8:60:62:3d:c9:fb:1f:6b:86:15:27:ed:
+                    87:f2:5d:ed:27:5a:37:4d:05:8d:79:ba:a2:5c:05:
+                    a7:21
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                7E:9B:9C:D8:B6:95:E9:BE:E6:C8:06:CA:5B:FE:42:E2:69:B0:DB:E2
+            X509v3 Authority Key Identifier: 
+                7E:9B:9C:D8:B6:95:E9:BE:E6:C8:06:CA:5B:FE:42:E2:69:B0:DB:E2
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        6b:da:17:c9:fe:09:de:d9:3d:04:5b:39:9d:3a:35:97:38:81:
+        94:43:d8:cb:e2:a3:2d:80:9a:fb:ae:50:54:e3:aa:a7:b4:c9:
+        5a:1d:80:68:7c:c0:55:66:9a:1d:22:0c:5b:a5:05:b1:51:1e:
+        1b:c2:51:8d:ec:9c:88:5d:ee:75:a2:08:34:c3:ed:d6:8f:8e:
+        fc:8e:b3:f2:27:67:67:34:c0:92:24:56:ff:12:86:d6:7f:3c:
+        90:f3:25:ab:64:07:de:c4:63:47:1f:2a:b6:cf:42:54:71:c0:
+        f5:ad:fa:e1:43:c3:3a:a4:40:2d:5c:47:2b:e5:a1:5b:94:7d:
+        05:cd:8e:cd:7f:ab:4c:0b:27:b1:36:69:fc:0e:95:bf:79:59:
+        15:3b:e4:34:68:64:11:ad:6a:b8:cf:cb:36:d9:41:a5:14:fb:
+        dd:69:39:9c:7f:8e:24:c9:99:dc:9c:f2:51:5f:9e:24:4b:ed:
+        a9:e6:4f:9a:5d:bb:e4:ff:95:dd:61:31:f0:2f:ed:99:72:56:
+        a4:0d:d4:bc:23:16:30:7e:c8:25:c1:59:79:80:e4:1a:15:d4:
+        d0:f8:ff:ff:10:d3:7d:5e:a1:78:0b:f5:e4:01:a0:58:23:09:
+        fe:2c:37:17:66:b0:a8:77:1b:12:82:b7:5b:74:45:13:6c:6d:
+        00:fa:18:de

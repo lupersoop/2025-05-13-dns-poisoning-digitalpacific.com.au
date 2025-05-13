@@ -1,0 +1,6 @@
+digitalpacific.com.au.	4679	IN	SOA	ns1.has.email. root.aspmxgoogle.has.email. 2025050615 3600 1800 1209600 86400
+;; Query time: 9 msec
+;; SERVER: 119.40.106.36#53(119.40.106.36) (UDP)
+;; WHEN: Wed May 14 00:33:09 AEST 2025
+;; MSG SIZE  rcvd: 116
+

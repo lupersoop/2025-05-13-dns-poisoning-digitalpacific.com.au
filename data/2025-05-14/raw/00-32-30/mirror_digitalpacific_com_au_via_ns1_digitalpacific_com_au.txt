@@ -1,0 +1,6 @@
+mirror.digitalpacific.com.au. 894 IN	A	101.0.120.90
+;; Query time: 10 msec
+;; SERVER: 162.159.25.173#53(ns1.digitalpacific.com.au) (UDP)
+;; WHEN: Wed May 14 00:34:28 AEST 2025
+;; MSG SIZE  rcvd: 73
+

@@ -1,0 +1,6 @@
+digitalpacific.com.au.	853	IN	A	13.237.211.76
+;; Query time: 10 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Wed May 14 00:33:02 AEST 2025
+;; MSG SIZE  rcvd: 66
+

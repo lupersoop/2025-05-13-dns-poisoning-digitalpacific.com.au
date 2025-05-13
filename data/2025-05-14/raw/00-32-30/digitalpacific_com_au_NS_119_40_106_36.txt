@@ -1,0 +1,17 @@
+digitalpacific.com.au.	664	IN	NS	ns3.digitalpacific.com.
+digitalpacific.com.au.	664	IN	NS	ns4.digitalpacific.com.
+digitalpacific.com.au.	664	IN	NS	ns2.digitalpacific.com.au.
+digitalpacific.com.au.	664	IN	NS	ns1.digitalpacific.com.au.
+ns2.digitalpacific.com.au. 2106	IN	AAAA	2400:cb00:2049:1::a29f:1887
+ns2.digitalpacific.com.au. 2106	IN	AAAA	2400:cb00:2049:1::a29f:19ad
+ns2.digitalpacific.com.au. 271	IN	A	162.159.25.173
+ns2.digitalpacific.com.au. 2971	IN	A	162.159.24.135
+ns1.digitalpacific.com.au. 2106	IN	AAAA	2400:cb00:2049:1::a29f:1887
+ns1.digitalpacific.com.au. 2106	IN	AAAA	2400:cb00:2049:1::a29f:19ad
+ns1.digitalpacific.com.au. 3384	IN	A	162.159.24.135
+ns1.digitalpacific.com.au. 684	IN	A	162.159.25.173
+;; Query time: 7 msec
+;; SERVER: 119.40.106.36#53(119.40.106.36) (UDP)
+;; WHEN: Wed May 14 00:32:31 AEST 2025
+;; MSG SIZE  rcvd: 316
+

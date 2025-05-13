@@ -1,0 +1,6 @@
+digitalpacific.com.au.	30	IN	A	13.237.211.76
+;; Query time: 13 msec
+;; SERVER: 119.40.106.35#53(119.40.106.35) (UDP)
+;; WHEN: Wed May 14 00:32:45 AEST 2025
+;; MSG SIZE  rcvd: 66
+

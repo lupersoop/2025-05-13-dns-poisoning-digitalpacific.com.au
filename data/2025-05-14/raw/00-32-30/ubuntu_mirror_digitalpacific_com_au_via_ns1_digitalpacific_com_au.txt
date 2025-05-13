@@ -1,0 +1,7 @@
+ubuntu.mirror.digitalpacific.com.au. 900 IN CNAME mirror.digitalpacific.com.au.
+mirror.digitalpacific.com.au. 900 IN	A	101.0.120.90
+;; Query time: 10 msec
+;; SERVER: 162.159.25.173#53(ns1.digitalpacific.com.au) (UDP)
+;; WHEN: Wed May 14 00:34:27 AEST 2025
+;; MSG SIZE  rcvd: 94
+

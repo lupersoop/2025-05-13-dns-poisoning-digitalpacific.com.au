@@ -1,14 +1,16 @@
 # Public Security Alert: DNS Poisoning Affecting Digital Pacific Linux Mirrors
 
-## Security Alert: DNS Poisoning Attack on Popular Linux Mirrors
+## Security Alert: DNS Poisoning Affecting Popular Linux Mirrors
 
-**Date:** May 12, 2025  
+**Date:** May 12, 2025 (Updated: May 14, 2025)  
 **Affected Services:** Digital Pacific Linux Mirrors (Fedora, Ubuntu, and potentially others)  
-**Affected Users:** Primarily Superloop Internet customers in Australia  
+**Affected Users:** Primarily users accessing these mirrors through certain DNS resolvers  
 
 ## Overview
 
-A DNS poisoning attack has been detected affecting users of Superloop Internet in Australia when accessing Linux distribution mirrors hosted by Digital Pacific. This attack redirects users to a potentially malicious server in Malaysia instead of the legitimate Digital Pacific mirrors.
+A DNS poisoning incident has been detected affecting Digital Pacific's Linux distribution mirrors. This issue redirects users to a potentially malicious server in Malaysia instead of the legitimate Digital Pacific mirrors.
+
+**UPDATE (May 14, 2025)**: We are investigating reports that this incident may be related to a registrar-level compromise rather than an ISP DNS issue. We will update this advisory as more information becomes available.
 
 ## Technical Details
 

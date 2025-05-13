@@ -1,0 +1,7 @@
+ubuntu.mirror.digitalpacific.com.au. 900 IN CNAME mirror.digitalpacific.com.au.
+mirror.digitalpacific.com.au. 86400 IN	SOA	ns1.digitalpacific.com.au. hostmaster.digitalpacific.com.au. 2025042200 28800 7200 604800 86400
+;; Query time: 22 msec
+;; SERVER: 162.159.25.173#53(162.159.25.173) (UDP)
+;; WHEN: Wed May 14 00:33:57 AEST 2025
+;; MSG SIZE  rcvd: 129
+
