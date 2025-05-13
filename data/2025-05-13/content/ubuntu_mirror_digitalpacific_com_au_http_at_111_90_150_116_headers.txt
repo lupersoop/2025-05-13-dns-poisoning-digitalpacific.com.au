@@ -1,11 +1,10 @@
 HTTP/1.1 200 OK
-Date: Mon, 12 May 2025 18:43:04 GMT
-Server: Apache
-Last-Modified: Mon, 08 May 2023 00:00:00 GMT
-Accept-Ranges: bytes
-Content-Length: 163
-Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-Expires: 0
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 13 May 2025 01:49:05 GMT
 Content-Type: text/html
+Content-Length: 163
+Last-Modified: Mon, 08 May 2023 00:00:00 GMT
+Connection: keep-alive
+ETag: "64583b80-a3"
+Accept-Ranges: bytes
 

@@ -1,0 +1,1 @@
+../data/latest/daily_summary.md

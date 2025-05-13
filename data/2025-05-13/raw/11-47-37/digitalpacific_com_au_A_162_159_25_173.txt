@@ -1,0 +1,6 @@
+digitalpacific.com.au.	900	IN	A	13.237.211.76
+;; Query time: 12 msec
+;; SERVER: 162.159.25.173#53(162.159.25.173) (UDP)
+;; WHEN: Tue May 13 11:48:07 AEST 2025
+;; MSG SIZE  rcvd: 66
+

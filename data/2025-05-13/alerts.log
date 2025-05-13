@@ -1782,3 +1782,391 @@
 [2025-05-13 04:43:21] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
 [2025-05-13 04:43:22] MISSING SECURITY HEADER: digitalpacific.com.au at 1.1.1.1 via https is missing HSTS header
 [2025-05-13 04:43:22] MISSING SECURITY HEADER: digitalpacific.com.au at 1.1.1.1 via https is missing X-Content-Type-Options header
+[2025-05-13 11:47:37] POISONING DETECTED: 119.40.106.35 returning has.email nameservers for digitalpacific.com.au (TTL: 3600)
+[2025-05-13 11:47:38] POISONING DETECTED: 119.40.106.36 returning has.email nameservers for digitalpacific.com.au (TTL: 3600)
+[2025-05-13 11:47:39] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:47:39] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:47:40] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:47:40] UNUSUAL SERVER: ubuntu.mirror.digitalpacific.com.au at 101.0.120.90 via http is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:47:40] MISSING SECURITY HEADER: ubuntu.mirror.digitalpacific.com.au at 101.0.120.90 via https is missing HSTS header
+[2025-05-13 11:47:40] MISSING SECURITY HEADER: ubuntu.mirror.digitalpacific.com.au at 101.0.120.90 via https is missing X-Content-Type-Options header
+[2025-05-13 11:47:40] UNUSUAL SERVER: ubuntu.mirror.digitalpacific.com.au at 101.0.120.90 via https is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:47:40] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:47:41] UNUSUAL SERVER: debian.mirror.digitalpacific.com.au at 101.0.120.90 via http is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:47:41] MISSING SECURITY HEADER: debian.mirror.digitalpacific.com.au at 101.0.120.90 via https is missing HSTS header
+[2025-05-13 11:47:41] MISSING SECURITY HEADER: debian.mirror.digitalpacific.com.au at 101.0.120.90 via https is missing X-Content-Type-Options header
+[2025-05-13 11:47:41] UNUSUAL SERVER: debian.mirror.digitalpacific.com.au at 101.0.120.90 via https is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:47:41] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:47:41] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:47:43] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:47:44] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:47:44] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:47:44] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:47:44] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:47:44] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:47:45] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:47:45] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:47:45] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:47:46] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:47:47] Added new suspicious domain to monitoring: ns1.has.email
+[2025-05-13 11:47:47] Added new suspicious domain to monitoring: ns2.has.email
+[2025-05-13 11:47:48] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:47:48] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:47:48] UNUSUAL SERVER: fedora.mirror.digitalpacific.com.au at 101.0.120.90 via http is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:47:48] MISSING SECURITY HEADER: fedora.mirror.digitalpacific.com.au at 101.0.120.90 via https is missing HSTS header
+[2025-05-13 11:47:48] MISSING SECURITY HEADER: fedora.mirror.digitalpacific.com.au at 101.0.120.90 via https is missing X-Content-Type-Options header
+[2025-05-13 11:47:48] UNUSUAL SERVER: fedora.mirror.digitalpacific.com.au at 101.0.120.90 via https is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:47:48] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:47:49] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:47:49] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:47:49] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:47:49] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:47:49] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:47:49] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:47:50] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:47:50] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:47:50] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:47:50] CERTIFICATE DOMAIN MISMATCH: Domain digitalpacific.com.au at IP 111.90.150.116 has certificate with subject:         Subject: CN=vmse01.mailcluster.com.au
+[2025-05-13 11:47:51] UNUSUAL SERVER: digitalpacific.com.au at 111.90.150.116 via http is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:48:02] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:02] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:02] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:02] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:02] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:03] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:03] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:03] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:03] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:03] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:03] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:03] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:05] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:05] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:05] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:05] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:05] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:05] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:05] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:06] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:06] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:06] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:06] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:06] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:07] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:07] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:08] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:10] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:10] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:10] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:10] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:10] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:10] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:11] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:11] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:11] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:11] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:11] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:11] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:13] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:13] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:13] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:13] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:13] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:13] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:13] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:14] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:14] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:14] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:14] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:14] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:15] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:16] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:17] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:18] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:19] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:19] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:19] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:20] POISONING DETECTED: 119.40.106.35 returning has.email nameservers for fedora.mirror.digitalpacific.com.au (TTL: 3600)
+[2025-05-13 11:48:21] POISONING DETECTED: 119.40.106.36 returning has.email nameservers for fedora.mirror.digitalpacific.com.au (TTL: 3600)
+[2025-05-13 11:48:22] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:23] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:25] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:26] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:26] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:27] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:27] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:27] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:27] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:27] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:28] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:28] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:28] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:28] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:28] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:28] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:28] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:29] CERTIFICATE DOMAIN MISMATCH: Domain fedora.mirror.digitalpacific.com.au at IP 111.90.150.116 has certificate with subject:         Subject: CN=vmse01.mailcluster.com.au
+[2025-05-13 11:48:29] UNUSUAL SERVER: fedora.mirror.digitalpacific.com.au at 111.90.150.116 via http is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:48:40] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:40] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:41] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:41] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:41] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:41] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:41] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:41] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:41] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:42] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:42] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:42] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:43] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:43] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:43] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:43] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:44] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:45] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:45] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:45] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:46] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:47] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:48] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:48] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:48] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:48] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:48] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:48] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:49] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:49] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:49] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:49] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:49] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:50] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:48:50] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:51] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:51] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:51] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:51] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:51] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:48:51] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:52] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:52] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:52] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:52] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:53] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:53] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:54] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/fedora_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:48:56] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:48:58] POISONING DETECTED: 119.40.106.35 returning has.email nameservers for ubuntu.mirror.digitalpacific.com.au (TTL: 3600)
+[2025-05-13 11:48:59] POISONING DETECTED: 119.40.106.36 returning has.email nameservers for ubuntu.mirror.digitalpacific.com.au (TTL: 3600)
+[2025-05-13 11:49:00] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:49:00] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:00] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:00] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:00] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:00] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:00] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:49:00] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:01] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:01] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:01] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:01] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:02] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:49:02] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:02] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:02] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:02] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:02] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:02] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:49:03] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:03] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:03] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:03] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:03] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:04] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:49:04] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:05] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:05] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:05] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:05] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:05] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:49:05] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:06] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:06] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:06] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:06] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:06] CERTIFICATE DOMAIN MISMATCH: Domain ubuntu.mirror.digitalpacific.com.au at IP 111.90.150.116 has certificate with subject:         Subject: CN=vmse01.mailcluster.com.au
+[2025-05-13 11:49:07] UNUSUAL SERVER: ubuntu.mirror.digitalpacific.com.au at 111.90.150.116 via http is using nginx (Digital Pacific typically uses Apache)
+[2025-05-13 11:49:18] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:49:18] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:18] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:18] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:18] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:18] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:19] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:49:19] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:19] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:19] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:19] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:19] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:20] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:49:20] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:21] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:22] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:49:22] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:22] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:23] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:25] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:49:25] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:25] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:25] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:25] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:25] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:26] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:49:26] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:26] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:26] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:26] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:26] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:28] Successfully queried fraudulent NS ns1.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_has_email.txt
+[2025-05-13 11:49:28] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:28] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:28] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:28] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:28] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:28] Successfully queried fraudulent NS ns2.has.email directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_has_email.txt
+[2025-05-13 11:49:29] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:29] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:29] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:29] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:29] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:30] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:49:30] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:30] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:31] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Successfully queried fraudulent NS ns1.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns1_digitalpacific_com_au.txt
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 101.0.120.90 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Successfully queried fraudulent NS ns2.digitalpacific.com.au directly - see /home/m/Code/git/notes-personal/inbox/dns-cache-poisoning/data/2025-05-13/raw/11-47-37/ubuntu_mirror_digitalpacific_com_au_via_ns2_digitalpacific_com_au.txt
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 203.16.232.200 for fedora.mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 101.0.120.90 for ubuntu.mirror.digitalpacific.com.au
+[2025-05-13 11:49:33] Fraudulent nameserver returns IP 101.0.120.90 for debian.mirror.digitalpacific.com.au
+[2025-05-13 11:49:34] Fraudulent nameserver returns IP 203.16.232.200 for centos.mirror.digitalpacific.com.au
+[2025-05-13 11:49:34] Fraudulent nameserver returns IP 203.16.232.200 for mirror.digitalpacific.com.au
+[2025-05-13 11:49:35] MISSING SECURITY HEADER: digitalpacific.com.au at 1.1.1.1 via https is missing HSTS header
+[2025-05-13 11:49:35] MISSING SECURITY HEADER: digitalpacific.com.au at 1.1.1.1 via https is missing X-Content-Type-Options header

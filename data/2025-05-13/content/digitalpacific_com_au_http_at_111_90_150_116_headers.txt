@@ -1,6 +1,10 @@
 HTTP/1.1 200 OK
-Date: Mon, 12 May 2025 18:42:14 GMT
-Server: Apache
-Content-Length: 447
-Content-Type: text/html;charset=ISO-8859-1
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 13 May 2025 01:47:49 GMT
+Content-Type: text/html
+Content-Length: 163
+Last-Modified: Mon, 08 May 2023 00:00:00 GMT
+Connection: keep-alive
+ETag: "64583b80-a3"
+Accept-Ranges: bytes
 

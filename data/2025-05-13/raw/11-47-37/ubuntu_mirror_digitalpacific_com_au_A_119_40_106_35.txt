@@ -1,0 +1,6 @@
+ubuntu.mirror.digitalpacific.com.au. 14393 IN A	111.90.150.116
+;; Query time: 102 msec
+;; SERVER: 119.40.106.35#53(119.40.106.35) (UDP)
+;; WHEN: Tue May 13 11:49:04 AEST 2025
+;; MSG SIZE  rcvd: 80
+
